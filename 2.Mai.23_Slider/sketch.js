@@ -1,6 +1,6 @@
 function setup() {
     // setup of the sketch
-    createCanvas(600, 600);
+    createCanvas(1000, 500);
     background(100, 100, 255);
     rectMode(CENTER); //Rechteck wird von der Mitte aus gezeichnet 
 }
