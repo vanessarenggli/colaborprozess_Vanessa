@@ -1,27 +1,27 @@
 function setup() {
 
-    createCanvas(1500, 1080);
+    createCanvas(1500, 1000);
 
 
 
     slider_ro = createSlider(0, 100, 0);
-    slider_ro.position(10, 1040);
+    slider_ro.position(10, 940);
     slider_ro.style("width", "100px");
 
     slider_si = createSlider(1, 3, 0, 0.1);
-    slider_si.position(150, 1040);
+    slider_si.position(150, 940);
     slider_si.style("width", "100px");
 
     slider_pos = createSlider(10, 500, 0);
-    slider_pos.position(300, 1040);
+    slider_pos.position(300, 940);
     slider_pos.style("width", "100px");
 
     slider_col = createSlider(0, 255, 0);
-    slider_col.position(450, 1040);
+    slider_col.position(450, 940);
     slider_col.style("width", "100px");
 
     slider_back = createSlider(0, 255, 0);
-    slider_back.position(600, 1040);
+    slider_back.position(600, 940);
     slider_back.style("width", "100px");
 
 
@@ -83,24 +83,24 @@ function draw() {
     //Balken
     noStroke();
     fill(255)
-    rect(10, 1050, 3000, 100)
+    rect(10, 950, 3000, 100)
 
     //Beschriftung unten 
     textFont("times")
     textSize(20);
     fill(0);
-    text("ROTATION", 10, 1030);
+    text("ROTATION", 10, 930);
 
     fill(0);
-    text("SIZE", 150, 1030);
+    text("SIZE", 150, 930);
 
     fill(0);
-    text("POSITION", 300, 1030);
+    text("POSITION", 300, 930);
 
     fill(0);
-    text("COLOR", 450, 1030);
+    text("COLOR", 450, 930);
 
     fill(0);
-    text("BACKGROUND", 600, 1030);
+    text("BACKGROUND", 600, 930);
 
 }
